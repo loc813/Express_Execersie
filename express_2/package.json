@@ -1,7 +1,7 @@
 {
   "name": "express_2",
   "version": "1.0.0",
-  "main": "./Server/app.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon main"
   },
@@ -11,6 +11,7 @@
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.9"
   }
 }

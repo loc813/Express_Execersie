@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation styling */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Main content styling */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-content {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.vote {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.vote-number {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.rate-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rate-bar .dislike, .rate-bar .like {
+    width: 45%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.rate-bar .dislike {
+    background: #dc3545;
+}
+
+.rate-bar .like {
+    background: #28a745;
+}
+
+/* Button styling */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
